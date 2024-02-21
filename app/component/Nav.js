@@ -27,6 +27,11 @@ const Nav = () => {
               Contact
             </Link>
           </li>
+          <li className={style.navbarItem}>
+            <Link className={style.navbarLink} href={"/users"}>
+              Users
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
