@@ -97,7 +97,9 @@ button {
   touch-action: manipulation;
   /*letter-spacing: -0.1rem;*/
 }
-
+input {
+  @apply w-[400px] border  py-2 px-6 bg-zinc-100/40;
+}
 button:hover {
   background-color: #fff;
   border: 0.1rem solid #161617;

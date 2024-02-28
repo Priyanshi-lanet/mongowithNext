@@ -30,11 +30,11 @@ function users() {
   return (
     <>
       <div>
-        <h1>Usernames:</h1>
+        <h2>Usernames:</h2>
         <ul>
           {UserList?.topic?.map((item) => (
             <li
-              className="mx-20 my-20 border-r-2 border-radius: 2px"
+              className="mx-20 my-20 border-r-2 border-2 border-black-500"
               key={item._id}
             >
               {item.username}
